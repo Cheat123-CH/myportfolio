@@ -46,7 +46,6 @@ export default function Greeting() {
                     download="Resume.pdf"
                     className="download-link-button"
                   >
-                    <Button text="Download my resume" />
                   </a>
                 )}
               </div>
@@ -58,7 +57,7 @@ export default function Greeting() {
             ) : (
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={require("../../assets/images/sokhcheat.png")}
               ></img>
             )}
           </div>
