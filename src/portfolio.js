@@ -173,7 +173,7 @@ const techStack = {
     },
     {
       Stack: "AI Security & Governance",
-      progressPercentage: "60%"
+      progressPercentage: "65%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -185,26 +185,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "DDos protection and Log Analyst",
+      company: "Log Analysis",
+      companylogo: require("./assets/images/ddos.png"),
+      date: "Feb - Mar 2026",
+      desc: "Worked with Wazuh to develop custom detection rules for logs from a DDoS protection control system, labeling highvolume requests that may indicate potential DDoS attacks to support SOC cyber-threat response."
+    },
+    {
       role: "Block-Chain Audit Trail",
       company: "Cryptography",
       companylogo: require("./assets/images/crypto-pro.png"),
       date: "Nov - Dec 2025",
       desc: "My project focuses on creating a secure audit logging system using blockchain concepts. The system stores logs in a hash chain and  designed a secure architecture with a gateway node for authorization verification and redundancy nodes to improve system reliability and availability.",
     },
-    {
-      role: "DDos protection and Log Analyst",
-      company: "Security Control",
-      companylogo: require("./assets/images/ddos.png"),
-      date: "Feb - Mar 2026",
-      desc: "Worked with Wazuh to develop custom detection rules for logs from a DDoS protection control system, labeling highvolume requests that may indicate potential DDoS attacks to support SOC cyber-threat response."
-    },
+
+    // {
+    //   role: "Perimeter Defense layer",
+    //   company: "Security Control ",
+    //   companylogo: require("./assets/images/firewall.png"),
+    //   date: "Nov - Dec 2025",
+    //   desc: "Designed and implemented security control between internal and external network by implement network routing with security control such as DDos protection, WAF, VPN, IDS/IPS and pfsense firewall for filtering and routing."
+    // },
     {
       role: "Data pipeline",
       company: "Data pipeline",
       companylogo: require("./assets/images/data-pipeline.png"),
       date: "Oct - Dec 2025",
       desc: "Designed and implemented a scalable data pipeline leveraging Apache NiFi for data ingestion and Apache Kafka for real-time log streaming, with data stored and processed in Hadoop for big data analysis."
-    }
+    },
   ]
 };
 
